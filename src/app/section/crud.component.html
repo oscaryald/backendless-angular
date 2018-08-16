@@ -1,0 +1,10 @@
+<div>
+  <ul>
+    <li *ngFor="let employee of employees">
+      <p> name : {{employee.firstName}} {{employee.lastName}} </p> 
+      <p> profession : {{employee.profession}} </p> 
+      <p> department : {{employee.department}} </p> 
+    </li>
+  </ul>
+  <button (click)="add()">Add</button>
+</div>
